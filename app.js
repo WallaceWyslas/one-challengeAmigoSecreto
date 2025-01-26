@@ -7,6 +7,7 @@ function adicionarAmigo() {
     if (friendsInput !== '') {
         friends.push(friendsInput);
         limparCampo();
+        atualizarListaDeAmigos();
 
         console.log(friends);
     } else {
@@ -16,4 +17,15 @@ function adicionarAmigo() {
 
 function limparCampo() {
     document.getElementById('amigo').value = '';
+}
+
+function atualizarListaDeAmigos() {
+  const lista = document.getElementById('listaAmigos');
+  lista.innerHTML = "";
+  for (let i = 0; i < friends.length; i++) {
+    const amigo = friends[i];
+    const elementoLista = document.createElement('li');
+    elementoLista.textContent = amigo;
+    lista.appendChild(elementoLista);
+  }
 }
