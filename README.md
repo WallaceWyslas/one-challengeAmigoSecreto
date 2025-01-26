@@ -13,7 +13,7 @@ Este projeto é uma aplicação web simples que permite adicionar, exibir uma li
 - JavaScript.
 
 ### Uso
-1. Abra o link pelo Github Pages na lateral direita da página principal ou clique [aqui]().
+1. Acesso o link [clicando aqui](https://one-challenge-amigo-secreto.vercel.app/).
 2. Digite o nome do amigo no campo de texto e clique no botão "Adicionar", para adicionar o amigo à lista. Você pode adicionar quantos nomes forem necessários;
 3. A lista de amigos será exibida abaixo do campo de texto;
 4. Clique em "Sortear amigo" para escolher um amigo aleatório da lista;
