@@ -6,8 +6,14 @@ function adicionarAmigo() {
     const friendsInput = document.getElementById('amigo').value.trim();
     if (friendsInput !== '') {
         friends.push(friendsInput);
+        limparCampo();
+
         console.log(friends);
     } else {
         alert('Por favor, insira um nome.')
     }
+}
+
+function limparCampo() {
+    document.getElementById('amigo').value = '';
 }
