@@ -12,12 +12,9 @@ Este projeto é uma aplicação web simples que permite adicionar, exibir uma li
 - CSS;
 - JavaScript.
 
-### Instalação
-1. Clone o repositório para o seu computador;
-2. Abra o arquivo index.html no seu navegador.
-
 ### Uso
-1. Digite o nome do amigo no campo de texto e clique no botão "Adicionar", para adicionar o amigo à lista. Você pode adicionar quantos nomes forem necessários;
-2. A lista de amigos será exibida abaixo do campo de texto;
-3. Clique em "Sortear amigo" para escolher um amigo aleatório da lista;
-4. Para limpar a lista de amigos, atualize a página.
+1. Abra o link pelo Github Pages na lateral direita da página principal ou clique [aqui]().
+2. Digite o nome do amigo no campo de texto e clique no botão "Adicionar", para adicionar o amigo à lista. Você pode adicionar quantos nomes forem necessários;
+3. A lista de amigos será exibida abaixo do campo de texto;
+4. Clique em "Sortear amigo" para escolher um amigo aleatório da lista;
+5. Para limpar a lista de amigos, atualize a página.
